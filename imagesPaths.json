@@ -1,0 +1,15 @@
+{
+    "tic-tac-toe" : [
+        "Assets/tic-tac-toe/Tic-Tac-Toe.png",
+        "Assets/tic-tac-toe/Tic-Tac-Toe(1).png",
+        "Assets/tic-tac-toe/Tic-Tac-Toe(2).png",
+        "Assets/tic-tac-toe/Tic-Tac-Toe(3).png",
+        "Assets/tic-tac-toe/Tic-Tac-Toe(4).png"
+    ],
+    "acc-app" : [
+        "Assets/AccApp/AccApp.png",
+        "Assets/AccApp/AccApp(1).png",
+        "Assets/AccApp/AccApp(2).png",
+        "Assets/AccApp/AccApp(3).png"
+    ]
+}

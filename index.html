@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/main-style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Start Preloader Section -->
+    <div id="preloader" class="preloader">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <!-- End Preloader Section -->
+
+    <!-- Start Home Section -->
+    <section id="home" class="home">
+        <div class="container">
+            <nav>
+                <span class="name">melad al akabani</span>                
+                <ul class="nav-links">
+                    <li class="nav-link"><a href="#home">home</a></li>
+                    <li class="nav-link"><a href="#skills">skills</a></li>
+                    <li class="nav-link"><a href="#projects">projects</a></li>
+                    <li class="nav-link"><a href="#contact">contact</a></li>
+                    <i class="fa fa-bars"></i>
+                </ul>
+            </nav>
+            <div class="personal-info">
+                <p class="about-me">i am <span> melad</span>,  a creative software developer driven by a deep curiosity for software development and a constant desire to grow i enjoy tackling complex challenges and finding effcient solutions.</p>
+                <div class="image-container">
+                    <img class="personal-image" src="Assets/personal-image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Home Section -->
+    <!-- Start Skills Section/ -->
+    <section id="skills">
+        <h1 class="section-title">skills</h1>
+        <div class="container">
+            <div class="skills-container">
+                <div class="skills">
+                    <div class="skill">
+                        <span>c#</span>
+                        <div class="progress-bar">
+                            <div id="c#" class="value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><span class="upper-case">sql</span></span>
+                        <div class="progress-bar">
+                            <div id="sql" class="value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>entity framework</span>
+                        <div class="progress-bar">
+                            <div id="ef" class="value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>asp .net core <span class="upper-case">mvc</span></span>
+                        <div class="progress-bar">
+                            <div id="asp-mvc" class="value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>web api</span>
+                        <div class="progress-bar">
+                            <div id="api" class="value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>git github</span>
+                        <div class="progress-bar">
+                            <div id="git" class="value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><span class="upper-case">html</span></span>
+                        <div class="progress-bar">
+                            <div id="html" class="value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><span class="upper-case">css</span></span>
+                        <div class="progress-bar">
+                            <div id="css" class="value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>java script</span>
+                        <div class="progress-bar">
+                            <div id="js" class="value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>dapper</span>
+                        <div class="progress-bar">
+                            <div id="dapper" class="value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>unit test</span>
+                        <div class="progress-bar">
+                            <div id="unit-test" class="value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><span class="upper-case">oop</span></span>  
+                        <div class="progress-bar">
+                            <div id="oop" class="value"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="languages">
+                    <h2>Languages</h2>
+                    <div>
+                        <span class="language">arabic:</span>
+                        <span class="proficiency">excellent</span>
+                    </div>
+                    <div>
+                        <span class="language">english:</span>
+                        <span class="proficiency">very good</span>
+                    </div>
+                </div>
+                <div class="education">
+                    <h2>Education</h2>
+                    <span class="education-info">
+                        syrian technological institute  of computer
+                    </span>
+                    <span class="diploma-info">
+                        diploma in computer science 2020 - 2022
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Skills Section -->
+    <!-- Start Projects Section -->
+    <section id="projects">
+        <h1 class="section-title">projects</h1>
+        <div class="projects-container">
+            <div class="card">
+                <img src="Assets/AccApp/AccApp.png" alt="Store manager app main window screen shot">
+                <h3 class="project-title">Store Manager App</h3>
+                <p class="Project-description">A simple app for managing (Manufacturers, Products, Customers), and for creating invoices.</p>
+                <a class="view-more" href="Store-Manager-App.html">view more</a>
+            </div>
+            <div class="card">
+                <img src="Assets/Social-Browser.png" alt="Socail browser main window screen shot">
+                <h3 class="project-title">Social Browser</h3>
+                <p class="Project-description">Control social accounts from only one window.</p>
+                <a class="view-more" href="https://socialbrowser.app/">view more</a>
+            </div>
+            <div class="card">
+                <img src="Assets/tic-tac-toe/tic-tac-toe.png" alt="Tic-Tac-Toe main window screen shot">
+                <h3 class="project-title">Tic-Tac-Toe</h3>
+                <p class="Project-description">Tic-Tac-Toe game that includes two modes (Single player, Multi player).</p>
+                <a class="view-more" href="Tic-Tac-Toe.html">view more</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Projects Section -->
+    <!-- Start Contact Section -->
+    <section id="contact">
+        <h1 class="section-title">Contact</h1>
+        <div class="contacts">
+            <h2>Contact Info</h2>
+            <div class="contact">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:Meladak286@gmail.com" target="_blank">email</a>
+            </div>
+            <div class="contact">
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/melad-al-akabani-b3104022a/" target="_blank">linked in</a>
+            </div>
+            <div class="contact">
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/meladak286" target="_blank">git hub</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+    <!-- Start script section -->
+    <script src="index.js"/>
+    <!-- End script section -->
+</body>
+</html>

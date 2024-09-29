@@ -1,0 +1,14 @@
+{
+    "c#" : "120px",
+    "ef" : "100px",
+    "sql": "100px",
+    "asp-mvc": "75px",
+    "api": "75px",
+    "git": "100px",
+    "html": "100px",
+    "css": "80px",
+    "js": "50px",
+    "dapper": "100px",
+    "unit-test": "50px",
+    "oop": "100px"
+}
