@@ -20,66 +20,10 @@ html {
 
 body {
     background-color: var(--background-color);
-    height: 0;
-    overflow: hidden;
+    height: 100vh;
     color: var(--primary-font-color);
     font-size: 1rem;
     font-family: "Mulish", sans-serif;
-}
-
-.preloader {
-    background-color: var(--primary-color);
-    width: 110%;
-    height: 120%;
-    z-index: 998;
-    margin-top: -10%;
-    margin-left: -5%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.preloader .circle {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-color: var(--highlight-color);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    margin: 0 10px;
-    position: relative;
-    z-index: 999;
-    animation-name: up-down-animation;
-    animation-duration: 0.9s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-@keyframes up-down-animation {
-    to {
-        opacity: 0.2;
-        transform: translateY(-20px);
-        -webkit-transform: translateY(-20px);
-        -moz-transform: translateY(-20px);
-        -ms-transform: translateY(-20px);
-        -o-transform: translateY(-20px);
-    }
-}
-
-.preloader div:nth-child(1) {
-    animation-delay: 0s;
-}
-
-.preloader div:nth-child(2) {
-    animation-delay: 0.3s;
-}
-
-.preloader div:nth-child(3) {
-    animation-delay: 0.6s;
 }
 
 .container {

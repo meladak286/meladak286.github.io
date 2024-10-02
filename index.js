@@ -23,7 +23,6 @@ fetch('skills.json')
   var loader = document.getElementById('preloader');
 
   window.addEventListener('load', function() {
-    console.log('test');
     loader.style.display = 'none';
     document.body.style.overflow = 'visible';
     document.body.style.height = '100hv';
