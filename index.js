@@ -18,12 +18,3 @@ fetch('skills.json')
     }
   })
   .catch(error => console.error('Error loading JSON file:', error));
-
-
-  var loader = document.getElementById('preloader');
-
-  window.addEventListener('load', function() {
-    loader.style.display = 'none';
-    document.body.style.overflow = 'visible';
-    document.body.style.height = '100hv';
-  })
