@@ -33,7 +33,6 @@ function nextImage() {
         imageIndex++;
     }
     image.src = images[imageIndex];
-    console.log(imageIndex);
 };
 
 function prevImage(){
@@ -44,7 +43,6 @@ function prevImage(){
         imageIndex--;
     }
     image.src = images[imageIndex];
-    console.log(imageIndex);
 };
 
 document.addEventListener("DOMContentLoaded", function() {
