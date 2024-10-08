@@ -1,4 +1,4 @@
-fetch('skills.json')
+fetch('./skills.json')
   .then(response => response.json())
   .then(data => {
     // Step 2: Parse JSON data
