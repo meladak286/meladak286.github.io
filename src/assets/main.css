@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #232931;
+  --background-color: #f0f3f5;
+  --primary-font-color: #fff;
+  --highlight-color: #bb2f2f;
+  --shadow-color: #65776c;
+  --border-color: #65776c;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
