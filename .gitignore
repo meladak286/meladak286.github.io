@@ -16,3 +16,9 @@ yarn-error.log*
 # Environment variables
 .env
 vite.config.js.timestamp-1732778913779-dce13dc0d0175.mjs
+
+*storybook.log
+
+# storybook tools
+src/stories
+.storybook
