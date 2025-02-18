@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700");
+
 :root {
   --primary-color: #232931;
   --background-color: #f0f3f5;
@@ -5,13 +7,44 @@
   --highlight-color: #bb2f2f;
   --shadow-color: #65776c;
   --border-color: #65776c;
+  --font-family: "Oswald", serif;
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 678px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 678px) and (max-width: 1080px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1080px ) and (max-width: 1920px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1920px) {
+  html {
+    font-size: 16px;
+  }
 }
 
 body {
   margin: 0;
   padding: 0;
   background-color: var(--primary-color);
-  font-size: 24px;
+  font-family: var(--font-family);
 }
 
 .capitalize {
