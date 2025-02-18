@@ -1,0 +1,50 @@
+[
+    {
+        "name": "C#",
+        "experience": 80
+    },
+    {
+        "name": "SQL",
+        "experience": 50
+    },
+    {
+        "name": "Entity Framework",
+        "experience": 70
+    },
+    {
+        "name": "Dapper",
+        "experience": 70
+    },
+    {
+        "name": "ASP.Net Core MVC",
+        "experience": 70
+    },
+    {
+        "name": "Web API",
+        "experience": 70
+    },
+    {
+        "name": "GIT",
+        "experience": 70
+    },
+    {
+        "name": "HTML",
+        "experience": 80
+    },
+    {
+        "name": "CSS",
+        "experience": 70
+    },
+    {
+        "name": "Java Script",
+        "experience": 60
+    },
+    {
+        "name": "Unit Test",
+        "experience": 50
+    },
+    {
+        "name": "OOP",
+        "experience": 70
+    }
+]
