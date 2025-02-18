@@ -15,6 +15,9 @@
         <a href="#contact" class="capitalize">contact</a>
       </li>
     </ul>
+    <span class="menu-toggle"
+      ><font-awesome-icon icon="fa-solid fa-bars"
+    /></span>
   </nav>
 </template>
 
@@ -43,15 +46,17 @@ nav .nav-links {
   list-style: none;
   align-items: center;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 nav .nav-links .nav-link {
-  margin: 25px;
+  margin: 1vw;
 }
 
 nav .nav-links .nav-link a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: var(--primary-font-color);
   padding: 5px 0;
@@ -65,6 +70,11 @@ nav .nav-links .nav-link:hover a {
 
 nav .nav-links .nav-link.active a {
   color: var(--highlight-color);
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+}
+
+nav .menu-toggle {
+  font-size: 24px;
+  color: white;
 }
 </style>
