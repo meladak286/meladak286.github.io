@@ -1,6 +1,7 @@
 <script setup>
 import homeView from "./views/HomeView.vue";
 import SkillsView from "./views/SkillsView.vue";
+import ProjectsView from "./views/ProjectsView.vue";
 </script>
 
 <template>
@@ -8,6 +9,8 @@ import SkillsView from "./views/SkillsView.vue";
     <homeView />
     <h1 class="section-title">Skills</h1>
     <SkillsView />
+    <h1 class="section-title">Projects</h1>
+    <ProjectsView />
   </div>
 </template>
 
