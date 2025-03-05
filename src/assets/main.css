@@ -17,6 +17,7 @@ html::-webkit-scrollbar {
 html {
   scrollbar-width: none; /* Hide scrollbar in Firefox */
   -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 480px) {

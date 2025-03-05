@@ -7,12 +7,12 @@ import PageFooter from "./components/PageFooter.vue";
 
 <template>
   <div>
-    <homeView />
-    <h1 class="section-title">Skills</h1>
+    <homeView id="home"/>
+    <h1 class="section-title" id="skills">Skills</h1>
     <SkillsView />
-    <h1 class="section-title">Projects</h1>
+    <h1 class="section-title" id="projects">Projects</h1>
     <ProjectsView />
-    <PageFooter />
+    <PageFooter id="contact"/>
   </div>
 </template>
 
