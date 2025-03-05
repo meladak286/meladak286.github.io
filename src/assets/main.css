@@ -10,6 +10,15 @@
   --font-family: "Oswald", serif;
 }
 
+html::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
+html {
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
+}
+
 @media (max-width: 480px) {
   html {
     font-size: 6px;
@@ -28,7 +37,7 @@
   }
 }
 
-@media (min-width: 1080px ) and (max-width: 1920px) {
+@media (min-width: 1080px) and (max-width: 1920px) {
   html {
     font-size: 14px;
   }
@@ -45,6 +54,7 @@ body {
   padding: 0;
   background-color: var(--primary-color);
   font-family: var(--font-family);
+  overflow-x: hidden;
 }
 
 .capitalize {
