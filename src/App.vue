@@ -2,6 +2,7 @@
 import homeView from "./views/HomeView.vue";
 import SkillsView from "./views/SkillsView.vue";
 import ProjectsView from "./views/ProjectsView.vue";
+import PageFooter from "./components/PageFooter.vue";
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import ProjectsView from "./views/ProjectsView.vue";
     <SkillsView />
     <h1 class="section-title">Projects</h1>
     <ProjectsView />
+    <PageFooter />
   </div>
 </template>
 
