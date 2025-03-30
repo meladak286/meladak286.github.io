@@ -1,17 +1,20 @@
 [
   {
-    "image": "src/assets/images/SocialBrowser/Social-Browser.png",
+    "image": "src/assets/images/AccApp/AccApp.png",
     "name": "Store Manager App",
-    "description": "A simple app for managing (Manufacturers, Products, Customers), and for creating invoices."
+    "description": "A comprehensive store management system that allows you to manage manufacturers, products, customers and generate invoices.",
+    "link": "https://github.com/meladak286/Accounting_App"
   },
   {
-    "image": "src/assets/images/AccApp/AccApp.png",
+    "image": "src/assets/images/SocialBrowser/Social-Browser.png",
     "name": "Social Browser",
-    "description": "Control social accounts from only one window. "
+    "description": "A browser application that lets you manage and control multiple social media accounts in a single window.",
+    "link": "https://socialbrowser.app/"
   },
   {
     "image": "src/assets/images/tic-tac-toe/tic-tac-toe.png",
     "name": "Tic-Tac-Toe",
-    "description": "Tic-Tac-Toe game that includes two modes (Single player, Multi player). "
+    "description": "Tic-Tac-Toe game that includes two modes (Single player, Multi player). ",
+    "link": "https://github.com/meladak286/Tic_Tac_ToeApp"
   }
 ]
