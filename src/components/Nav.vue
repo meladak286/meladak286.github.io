@@ -35,7 +35,7 @@ nav {
 }
 
 nav .name {
-  font-size: 2rem;
+  font-size: 25px;
   font-weight: bold;
   font-family: cursive;
 }
@@ -56,7 +56,7 @@ nav .nav-links .nav-link {
 
 nav .nav-links .nav-link a {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 20px;
   font-weight: bold;
   color: var(--primary-font-color);
   padding: 5px 0;
@@ -70,7 +70,7 @@ nav .nav-links .nav-link:hover a {
 
 nav .nav-links .nav-link.active a {
   color: var(--highlight-color);
-  font-size: 1.4rem;
+  font-size: 25px;
 }
 
 nav .menu-toggle {
