@@ -11,7 +11,7 @@ import navbar from "../components/Nav.vue";
         <span class="name">melad al akabani</span>, a creative software
         developer driven by a deep curiosity for software development and a
         constant desire to grow. I enjoy tackling complex challenges and finding
-        effcient solutions.
+        efficient solutions.
       </p>
     </div>
     <div class="personal-image">
@@ -65,6 +65,7 @@ import navbar from "../components/Nav.vue";
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .personal-image .image {
@@ -93,5 +94,41 @@ import navbar from "../components/Nav.vue";
 
 .personal-image .image:hover img {
   transform: rotateZ(-90deg);
+}
+
+@media screen and (max-width: 768px) {
+  .home-section {
+    width: 100%;
+    height: auto;
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: 0;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "nav"
+      "image"
+      "info";
+  }
+
+  .personal-info {
+    width: 90%;
+    padding: 20px;
+    font-size: 2rem;
+  }
+
+  .personal-info .name {
+    font-size: 2.2rem;
+  }
+
+  .personal-image .image img {
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .personal-image .image {
+    padding: 10px;
+    margin-top: 25px;
+    border-width: 5px;
+  }
 }
 </style>
