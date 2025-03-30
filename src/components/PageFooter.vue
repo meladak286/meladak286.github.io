@@ -4,17 +4,20 @@
     <h2 class="capitalize">contact info</h2>
     <ul class="social-links">
       <li>
-        <a href="" class="social-link capitalize">
+        <a href="mailto:meladak286@gmail.com" class="social-link capitalize">
           <i class="fa-solid fa-envelope"></i>
         </a>
       </li>
       <li>
-        <a href="" class="social-link capitalize">
+        <a
+          href="https://www.linkedin.com/in/melad-al-akabani-b3104022a/"
+          class="social-link capitalize"
+        >
           <i class="fa-brands fa-linkedin"></i>
         </a>
       </li>
       <li>
-        <a href="" class="social-link capitalize">
+        <a href="https://github.com/meladak286" class="social-link capitalize">
           <i class="fa-brands fa-github"></i>
         </a>
       </li>
@@ -58,11 +61,10 @@
   display: inline-block;
   text-align: center;
   margin: 0 25px;
-  transition: transform .1s 0s;
+  transition: transform 0.1s 0s;
 }
 
-.footer .social-links li a:hover{
+.footer .social-links li a:hover {
   transform: scale(1.5);
 }
-
 </style>
