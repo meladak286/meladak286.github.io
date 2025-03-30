@@ -16,7 +16,7 @@
         "experience": 70
     },
     {
-        "name": "ASP.Net Core MVC",
+        "name": "ASP.Net MVC",
         "experience": 70
     },
     {
@@ -46,5 +46,13 @@
     {
         "name": "OOP",
         "experience": 70
+    },
+    {
+        "name": "Vue",
+        "experience": "40"
+    },
+    {
+        "name": "Node Js",
+        "experience": "40"
     }
 ]
