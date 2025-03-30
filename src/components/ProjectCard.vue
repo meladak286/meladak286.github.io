@@ -60,10 +60,14 @@ export default {
 }
 
 .project-card .more {
-  color: var(--primary-font-color);
   font-weight: bold;
   font-size: 16px;
   cursor: pointer;
   margin: 10px 0;
+}
+
+.project-card .more a {
+  text-decoration: none;
+  color: var(--primary-font-color);
 }
 </style>
