@@ -113,11 +113,11 @@ import navbar from "../components/Nav.vue";
   .personal-info {
     width: 90%;
     padding: 20px;
-    font-size: 2rem;
+    font-size: 18px;
   }
 
   .personal-info .name {
-    font-size: 2.2rem;
+    font-size: 20px;
   }
 
   .personal-image .image img {
