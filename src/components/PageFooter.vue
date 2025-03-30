@@ -34,6 +34,7 @@
   flex-direction: column;
   align-items: center;
   box-shadow: -2px 0 4px 0 var(--shadow-color);
+  font-size: 24px;
 }
 
 .footer .social-links {
@@ -66,5 +67,11 @@
 
 .footer .social-links li a:hover {
   transform: scale(1.5);
+}
+
+@media (max-width:768px){
+  .footer {
+    padding: 0;
+  }
 }
 </style>
