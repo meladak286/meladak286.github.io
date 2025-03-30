@@ -15,9 +15,6 @@
         <a href="#contact" class="capitalize">contact</a>
       </li>
     </ul>
-    <span class="menu-toggle"
-      ><font-awesome-icon icon="fa-solid fa-bars"
-    /></span>
   </nav>
 </template>
 
@@ -35,7 +32,7 @@ nav {
 }
 
 nav .name {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
   font-family: cursive;
 }
@@ -48,6 +45,7 @@ nav .nav-links {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 nav .nav-links .nav-link {
@@ -56,7 +54,7 @@ nav .nav-links .nav-link {
 
 nav .nav-links .nav-link a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: var(--primary-font-color);
   padding: 5px 0;
@@ -73,8 +71,26 @@ nav .nav-links .nav-link.active a {
   font-size: 25px;
 }
 
-nav .menu-toggle {
-  font-size: 24px;
-  color: white;
+@media screen and (max-width: 768px) {
+  nav {
+    height: 75px;
+  }
+  nav .name {
+    font-size: 16px;
+  }
+
+  nav .nav-links .nav-link a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  nav .name {
+    font-size: 14px;
+  }
+
+  nav .nav-links .nav-link a {
+    font-size: 12px;
+  }
 }
 </style>
